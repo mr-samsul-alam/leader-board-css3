@@ -176,6 +176,10 @@ hr{
 /* ------------------------------------------------------------------Media Queriers -----------------------------------------------------*/
 /* Mobile Device */
  @media only screen and (max-width:688px) {
+    header{
+         width: 100%;
+     }
+     
      .container{
          width: 100%;
      }
@@ -194,6 +198,7 @@ hr{
          .players{
              grid-template-columns:  repeat(2, 1fr);
          }
+
      }
      
   
